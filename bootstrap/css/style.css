@@ -8,11 +8,13 @@
 .navbar-top {
 	border-bottom: solid 1px;
 	border-color: lightgray;
+	background-color: white;
 }
 
 .navbar-bottom {
 	border-top: solid 1px;
 	border-color: lightgray;
+	background-color: white;
 }
 
 .navbar-brand{
@@ -21,7 +23,15 @@
 }
 
 @media (min-width: 425px){
-	.navbar{
+	.navbargone{
+		display: none;
+	}
+	.tweet-icons{
+		height: 25px;
+		width: 25px;
+		margin: 0 6vw 0 6vw;
+	}
+	.tweet-button{
 		display: none;
 	}
 }
@@ -40,7 +50,7 @@
 
 .feed {
 	list-style: none;
-	padding: 0;
+	padding: 0 0 45px 0;
 }
 
 .tweet{
@@ -53,10 +63,12 @@
 .tweet-elements{
 	margin: 2px;
 	padding: 2px;
+	vertical-align: top;
 }
 
 .tweet-header{
 	display: inline-block;
+
 }
 
 .username{
@@ -65,4 +77,26 @@
 
 .gray{
 	color: gray;
+}
+
+.tweet-profile {
+	border-radius: 50%;
+	height: 10vw;
+	width: 10vw;
+}
+
+@media (max-width: 424px){
+	.tweet-icons{
+		height:5vw;
+		width:5vw;
+		margin: 0 6vw 0 6vw;
+	}
+}
+
+.tweet-navbar{
+	margin-left: 5vw;	
+}
+
+.tweet-button{
+	padding: 10px 10px 60px 10px
 }
