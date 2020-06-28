@@ -1,0 +1,10 @@
+.profile-pic{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.tweet{
+	border-bottom: solid 1px;
+	border-color: lightgray;
+}
