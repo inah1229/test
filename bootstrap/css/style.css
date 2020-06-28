@@ -1,21 +1,38 @@
-.profile-pic{
+.profile{
 	border-radius: 50%;
-	height: 100px;
-	width: 100px;
+	height: 100%;
+	width: 10vw;
 }
 
-.tweet{
+.navbar-top {
 	border-bottom: solid 1px;
 	border-color: lightgray;
 }
 
-.main-title{
-	margin: 0;
+.navbar-bottom {
+	border-top: solid 1px;
+	border-color: lightgray;
+}
+
+.navbar-brand{
+	font-size: 7vw;
+	vertical-align: middle;
+}
+
+@media (min-width: 425px){
+	.navbar{
+		display: none;
+	}
+}
+
+.icons-pref {
 	display: inline-block;
+	height: 75%;
+	width: 8vw;
 }
 
-.main-header{
-	border-bottom: solid 1px;
-	border-color: lightgray;
-	padding-bottom: 15px;
+.icons {
+	height: 100%;
+	width: 10vw;
+	display: inline-block;
 }
