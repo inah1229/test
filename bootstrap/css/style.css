@@ -2,28 +2,19 @@
 	border-radius: 50%;
 	height: 100%;
 	width: 10vw;
-<<<<<<< HEAD
 	display: inline-block;
-=======
->>>>>>> navigation
 }
 
 .navbar-top {
 	border-bottom: solid 1px;
 	border-color: lightgray;
-<<<<<<< HEAD
 	background-color: white;
-=======
->>>>>>> navigation
 }
 
 .navbar-bottom {
 	border-top: solid 1px;
 	border-color: lightgray;
-<<<<<<< HEAD
 	background-color: white;
-=======
->>>>>>> navigation
 }
 
 .navbar-brand{
@@ -32,7 +23,6 @@
 }
 
 @media (min-width: 425px){
-<<<<<<< HEAD
 	.navbargone{
 		display: none;
 	}
@@ -42,9 +32,6 @@
 		margin: 0 6vw 0 6vw;
 	}
 	.tweet-button{
-=======
-	.navbar{
->>>>>>> navigation
 		display: none;
 	}
 }
@@ -59,7 +46,6 @@
 	height: 100%;
 	width: 10vw;
 	display: inline-block;
-<<<<<<< HEAD
 }
 
 .feed {
@@ -113,6 +99,4 @@
 
 .tweet-button{
 	padding: 10px 10px 60px 10px
-=======
->>>>>>> navigation
 }
