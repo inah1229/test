@@ -8,3 +8,14 @@
 	border-bottom: solid 1px;
 	border-color: lightgray;
 }
+
+.main-title{
+	margin: 0;
+	display: inline-block;
+}
+
+.main-header{
+	border-bottom: solid 1px;
+	border-color: lightgray;
+	padding-bottom: 15px;
+}
