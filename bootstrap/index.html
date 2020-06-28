@@ -3,16 +3,34 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css"> <!-- for any overrides necessary-->
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6" style="background: lightblue">1</div>
-				<div class="col-md-4" style="background: orange">2</div>
-				<div class="col-md-2" style="background: red">3</div>
-			</div>
-		</div>
+		<section> <!--tweet feed-->
+			<ul style="list-style: none">
+				<li class="tweet"> <!-- separate tweet-->
+					<article> <!-- putting the contents of the tweet into one-->
+						<img class="profile-pic" src="img/mtm.png" alt="Insert pic" align="left"> <!--profile picture in tweet-->
+						<header>
+							<a href="index.html">
+								<span> MetamorphyMimir </span> <!-- still need to modify the css to this so it doesn't show up as as a hyperlink--> 
+								<span> @aishaxhennon </span>
+							</a>
+							<time datetime="">
+								7m
+							</time> <!-- the header for each tweet-->
+							<button>
+								<img src="img/svgexport-11.png">
+							</button> <!--still needs to modify the css of this to override the style of the button-->
+						</header>
+						<p>
+							I want my ring back!
+						</p>
+					</article>
+				</li>
+			<ul>
+		</section>
 	</body>
 </html>
